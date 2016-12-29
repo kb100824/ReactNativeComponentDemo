@@ -14,4 +14,4 @@
 </ul>
 #指示器效果图
 ![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/indicator.gif)
-<hr size='1' color='black'>
+<hr size='1' color="#000000">
