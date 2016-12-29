@@ -1,6 +1,3 @@
-# 初学ReactNative,参考官方Demo进行修改
-
-# PS:所有例子的js文件放在文件夹"ComponentDemoJS"中
 
 #ReactNative---->之活动指示器(菊花)自定义、颜色等相关属性文字描述了解如表格所示
 
