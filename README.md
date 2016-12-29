@@ -3,7 +3,7 @@
 # PS:所有例子的js文件放在文件夹"ComponentDemoJS"中
 
 ###ReactNative 之活动指示器(菊花)自定义、颜色等相关属性了解如表格所示
-<table border="1">
+<table border="1" align="center">
 <caption>ActivityIndicator</caption>
 <tr>
 <td>animating<td>
@@ -15,10 +15,8 @@
 <td>布尔值类型:true/false<td>
 <td>指示器颜色自定义<td>
 <td>没有动画的时候是否隐藏布尔值类型:true/false<td>
-<td>small的高度为20，large为36<td>
+<td>size="small"就是高度为20，size="large"高度为36<td>
 </tr>
-
-
 </table>
 
 
