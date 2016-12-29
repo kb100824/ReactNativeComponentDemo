@@ -21,7 +21,7 @@
 
 
 
-<h3>(Day_1)ReactNative---------->活动指示器属性如下</h3>
+<h3>Day_1---->活动指示器属性如下</h3>
 
 <ul type="disc">
  <li>animating:是否要显示指示器，类型为bool 默认为true。</li>
