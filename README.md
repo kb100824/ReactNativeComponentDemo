@@ -12,10 +12,10 @@
 <td>size<td>
 </tr>
 <tr>
-<td>true/false<td>
-<td><td>
-<td><td>
-<td><td>
+<td>布尔值类型:true/false<td>
+<td>指示器颜色自定义<td>
+<td>没有动画的时候是否隐藏布尔值类型:true/false<td>
+<td>small的高度为20，large为36<td>
 </tr>
 
 
