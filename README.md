@@ -63,5 +63,8 @@
 </ul>
 #指示器效果图
 ![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/button.gif)
+* * *
 ***
-<hr style="border : 1px dashed blue;" />
+******
+- - -
+---------------------------
