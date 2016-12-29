@@ -1,7 +1,7 @@
 
 #ReactNative---->之活动指示器(菊花)自定义、颜色等相关属性文字描述了解如表格所示
 
-<table border="1" align="center">
+<table border="1" align="center" cellspacing="0">
 <caption  align="left">ActivityIndicator</caption>
 <tr>
 <td>animating<td>
@@ -33,7 +33,7 @@
 
 #ReactNative---->之按钮位置布局自定义标题颜色等相关属性了解如表格所示
 
-<table border="1" align="center">
+<table border="1" align="center"  cellspacing="0">
 <caption  align="left">Button</caption>
 <tr>
 <td>accessibilityLabel<td>
