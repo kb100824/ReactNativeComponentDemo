@@ -2,7 +2,7 @@
 
 # PS:所有例子的js文件放在文件夹"ComponentDemoJS"中
 
-# ReactNative 之活动指示器(菊花)自定义、颜色等相关属性了解
+###ReactNative 之活动指示器(菊花)自定义、颜色等相关属性了解
 
 <h3>ReactNative---------->活动指示器属性如下</h3>
 
