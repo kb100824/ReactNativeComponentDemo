@@ -2,7 +2,26 @@
 
 # PS:所有例子的js文件放在文件夹"ComponentDemoJS"中
 
-###ReactNative 之活动指示器(菊花)自定义、颜色等相关属性了解
+###ReactNative 之活动指示器(菊花)自定义、颜色等相关属性了解如表格所示
+<table border="1">
+<caption>ActivityIndicator</caption>
+<tr>
+<td>animating<td>
+<td>color<td>
+<td>hidesWhenStopped<td>
+<td>size<td>
+</tr>
+<tr>
+<td>true/false<td>
+<td><td>
+<td><td>
+<td><td>
+</tr>
+
+
+</table>
+
+
 
 <h3>ReactNative---------->活动指示器属性如下</h3>
 
