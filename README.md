@@ -4,7 +4,7 @@
 
 ###ReactNative 之活动指示器(菊花)自定义、颜色等相关属性了解如表格所示
 <table border="1" align="center">
-<caption>ActivityIndicator</caption>
+<caption align="center">ActivityIndicator</caption>
 <tr>
 <td>animating<td>
 <td>color<td>
