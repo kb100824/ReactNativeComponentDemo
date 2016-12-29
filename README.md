@@ -59,6 +59,6 @@
  <li>onPress:用户点击此按钮时所调用的处理函数</li>
  <li>title:按钮内显示的文本</li>
 </ul>
-#指示器效果图
+#按钮效果图
 ![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/button.gif)
 * * *
