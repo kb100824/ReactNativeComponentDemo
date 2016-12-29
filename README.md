@@ -40,7 +40,7 @@
 <tr>
 <td>accessibilityLabel<td>
 <td>disabled<td>
-<td>color</td>
+<td>color<td>
 <td>onPress<td>
 <td>title<td>
 </tr>
