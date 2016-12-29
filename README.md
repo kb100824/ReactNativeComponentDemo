@@ -20,7 +20,7 @@
 </tr>
 </table>
 
-#<h3>指示器属性文字描述如下:</h3>
+#<h3>1---->指示器属性文字描述如下:</h3>
 <ul type="disc">
  <li>animating:是否要显示指示器，类型为bool 默认为true。</li>
  <li>hidesWhenStopped:在没有动画的时候，是否要隐藏指示器（默认为true） </li>
@@ -29,7 +29,7 @@
 </ul>
 #指示器效果图
 ![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/indicator.gif)
-<hr size='1'>
+<hr style="border:1px dashed blue;"/>
 
 
 
@@ -54,7 +54,7 @@
 </table>
 
 
-#<h3>按钮属性文字描述如下:</h3>
+#<h3>2--》按钮属性文字描述如下:</h3>
 <ul type="square">
  <li>color:标题颜色</li>
  <li>disabled:按钮是否可点击 </li>
@@ -64,3 +64,4 @@
 #指示器效果图
 ![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/button.gif)
 <hr size='1'>
+<hr style="border : 1px dashed blue;" />
