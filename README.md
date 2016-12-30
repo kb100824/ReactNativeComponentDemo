@@ -92,13 +92,13 @@
 <td>timeZoneOffsetInMinutes<td>
 </tr>
 <tr>
-<td>date:Date类型<td>
-<td>maximumDate:Date类型<td>
-<td>minimumDate:Date类型<td>
-<td>minuteInterval:enum整型枚举类型<td>
-<td>mode::enum字符串枚举类型<td>
-<td>onDateChange:函数function类型<td>
-<td>timeZoneOffsetInMinutes:number类型<td>
+<td>Date类型<td>
+<td>Date类型<td>
+<td>Date类型<td>
+<td>enum整型枚举类型(1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30)<td>
+<td>enum字符串枚举类型'date','time','datetime'<td>
+<td>函数function类型<td>
+<td>number类型时间间隔<td>
 </tr>
 </table>
 
