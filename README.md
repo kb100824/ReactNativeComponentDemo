@@ -75,3 +75,46 @@
 #按钮效果图
 ![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/button.gif)
 * * *
+
+
+
+#ReactNative---->日期选择器相关属性了解如表格所示
+
+<table border="1" align="center"  cellspacing="0">
+<caption  align="left">DatePickerIOS</caption>
+<tr>
+<td>date<td>
+<td>maximumDate<td>
+<td>minimumDate<td>
+<td>minuteInterval<td>
+<td>mode<td>
+<td>onDateChange<td>
+<td>timeZoneOffsetInMinutes<td>
+</tr>
+<tr>
+<td>date:Date类型<td>
+<td>maximumDate:Date类型<td>
+<td>minimumDate:Date类型<td>
+<td>minuteInterval:enum整型枚举类型<td>
+<td>mode::enum字符串枚举类型<td>
+<td>onDateChange:函数function类型<td>
+<td>timeZoneOffsetInMinutes:number类型<td>
+</tr>
+</table>
+
+
+#<h3>3--》日期选择器属性文字描述如下:</h3>
+<ul type="circle">
+<li>accessibilityLabel:用于给残障人士显示的文本</li>
+
+ <li>date:当前被选中的日期</li>
+ <li>maximumDate:可选的最大日期</li>
+ <li>minimumDate:可选的最小日期</li>
+ <li>minuteInterval:可选的最小的分钟单位(时间间隔)</li>
+ <li>mode:选择器模式('date', 'time', 'datetime')</li>
+ <li>onDateChange:当用户修改日期或时间时调用此回调函数</li>
+ <li>timeZoneOffsetInMinutes:时区差，单位是分钟</li>
+</ul>
+#按钮效果图
+![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/datepicker.gif)
+* * *

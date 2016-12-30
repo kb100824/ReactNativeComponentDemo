@@ -15,7 +15,7 @@ import {
 
 import ActivityIndicatorComponent  from './ComponentDemoJS/indicator';
 import ButtonComponent  from './ComponentDemoJS/button';
-
+import DatePicker  from './ComponentDemoJS/datepicker';
 
 export default class ReactNativeComponentDemo extends Component {
   constructor(props){
@@ -29,19 +29,48 @@ export default class ReactNativeComponentDemo extends Component {
   render() {
     return (
 
-      <ScrollView>
-      {
-        ButtonComponent.ButtonModel.map((buttonArray)=>{
-          return  (
-             <View>
-              <Text style={styles.buttonTitle}>{buttonArray.title}</Text>
-             <Text style={{fontSize:14}}>{buttonArray.description}</Text>
-            <View style={{backgroundColor:this.state.randomColor}} >{buttonArray.render()}</View>
-            </View>);
+      //日期选择器组件
+       <ScrollView>
+       {
+         DatePicker.DatePickerModel.map((dateArray)=>{
+           return <View><View style={{backgroundColor:this.state.randomColor,marginTop:20}}><Text style={{fontSize:20,textAlign:'center'}}>{dateArray.title}</Text></View><View>{dateArray.render()}</View></View>
+         })
+       }
+       </ScrollView>
 
-        })
-      }
-    </ScrollView>
+
+
+       //按钮组件
+    //   <ScrollView>
+    //   {
+    //     ButtonComponent.ButtonModel.map((buttonArray)=>{
+    //       return  (
+    //          <View>
+    //           <Text style={styles.buttonTitle}>{buttonArray.title}</Text>
+    //          <Text style={{fontSize:14}}>{buttonArray.description}</Text>
+    //         <View style={{backgroundColor:this.state.randomColor}} >{buttonArray.render()}</View>
+    //         </View>);
+    //
+    //     })
+    //   }
+    // </ScrollView>
+
+
+  //  活动指示器
+ //   <ScrollView>
+ //   {
+ //     ActivityIndicatorComponent.indicatorModel.map((indicatorArray)=>{
+ //       return  (
+ //          <View>
+ //           <Text style={{marginTop:20,fontSize:14}}>{indicatorArray.title}</Text>
+ //         <View style={{backgroundColor:this.state.randomColor}} >{indicatorArray.render()}</View>
+ //         </View>);
+ //
+ //     })
+ //   }
+ // </ScrollView>
+
+
     );
   }
 }
