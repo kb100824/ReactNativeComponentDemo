@@ -1,4 +1,14 @@
 
+
+#注意事项:
+<ul type="disc">
+ <li>1:如果运行项目报错提示找不到"RCTBundleURLProvider.h"这个头文件,那么需要你打开终端cd 到你项目中"package.json"所在的目录下。</li>
+ <li>2:输入 npm install执行 </li>
+</ul>
+
+
+
+
 #ReactNative---->之活动指示器(菊花)自定义、颜色等相关属性文字描述了解如表格所示
 
 <table border="1" align="center" cellspacing="0">
