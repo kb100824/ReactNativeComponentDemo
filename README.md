@@ -4,7 +4,7 @@
 <ul type="disc">
  <li>1:如果运行项目报错提示找不到"RCTBundleURLProvider.h"这个头文件,
 那么需要你打开终端cd 到你项目中"package.json"所在的目录下。</li>
- <li>2:输入 npm install执行 </li>
+ <li>2:输入 npm install指令 </li>
 </ul>
 
 
