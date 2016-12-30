@@ -65,6 +65,8 @@
 
 #<h3>2--》按钮属性文字描述如下:</h3>
 <ul type="square">
+<li>accessibilityLabel:用于给残障人士显示的文本</li>
+
  <li>color:标题颜色</li>
  <li>disabled:按钮是否可点击 </li>
  <li>onPress:用户点击此按钮时所调用的处理函数</li>
