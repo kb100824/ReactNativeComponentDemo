@@ -14,10 +14,11 @@ import {
   Image,
 } from 'react-native';
 
-import ActivityIndicatorComponent  from './ComponentDemoJS/indicator';
-import ButtonComponent  from './ComponentDemoJS/button';
-import DatePicker  from './ComponentDemoJS/datepicker';
-import MapViewComponent from './ComponentDemoJS/mapView';
+// import ActivityIndicatorComponent  from './ComponentDemoJS/indicator';
+// import ButtonComponent  from './ComponentDemoJS/button';
+// import DatePicker  from './ComponentDemoJS/datepicker';
+// import MapViewComponent from './ComponentDemoJS/mapView';
+//import KeyboardAvoidingViewComponent from './ComponentDemoJS/keyboardAvoidingView';
 export default class ReactNativeComponentDemo extends Component {
   constructor(props){
     super(props);
@@ -31,15 +32,16 @@ export default class ReactNativeComponentDemo extends Component {
     return (
 
 
+  
 
-       <ScrollView>
-       {
-         MapViewComponent.MapViewModel.map((mapArray)=>{
-
-           return <View><Text style={{marginTop:20}}>{mapArray.title}</Text><View>{mapArray.render()}</View></View>
-         })
-       }
-       </ScrollView>
+      //  <ScrollView>
+      //  {
+      //    MapViewComponent.MapViewModel.map((mapArray)=>{
+       //
+      //      return <View><Text style={{marginTop:20}}>{mapArray.title}</Text><View>{mapArray.render()}</View></View>
+      //    })
+      //  }
+      //  </ScrollView>
 
 
       //日期选择器组件
