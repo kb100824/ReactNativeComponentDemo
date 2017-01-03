@@ -219,6 +219,6 @@
 <li>renderRow:每行用来渲染组件</li>
 </ul>
 #效果图
-![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/listView.gif)
-![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/listView_space.gif)
+![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/listview.gif)
+![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/listview_space.gif)
 * * *
