@@ -118,3 +118,77 @@
 #按钮效果图
 ![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/datepicker.gif)
 * * *
+
+
+
+#ReactNative---->Map(地图)相关属性了解如表格所示
+
+<table border="1" align="center"  cellspacing="0">
+<caption  align="left">MapView</caption>
+<tr>
+<td>annotations<td>
+<td>legalLabelInsets<td>
+<td>mapType<td>
+<td>maxDelta<td>
+<td>minDelta<td>
+<td>overlays<td>
+<td>onAnnotationPress<td>
+<td>onRegionChange<td>
+<td>onRegionChangeComplete<td>
+<td>pitchEnabled<td>
+<td>region<td>
+<td>rotateEnabled<td>
+<td>scrollEnabled<td>
+<td>showsUserLocation<td>
+<td>style<td>
+<td>zoomEnabled<td>
+<td>showsCompass<td>
+<td>showsPointsOfInterest<td>
+</tr>
+<tr>
+<td>annotations:Array类型<td>
+<td>legalLabelInsets:object类型<td>
+<td>mapType:枚举类型<td>
+<td>maxDelta:number<td>
+<td>minDelta:number<td>
+<td>overlays:Array类型<td>
+<td>onAnnotationPress:function<td>
+<td>onRegionChange:function<td>
+<td>onRegionChangeComplete:function<td>
+<td>pitchEnabled:bool<td>
+<td>region:object类型<td>
+<td>rotateEnabled:bool<td>
+<td>scrollEnabled:bool<td>
+<td>showsUserLocation:bool<td>
+<td>style:style样式<td>
+<td>zoomEnabled:bool<td>
+<td>showsCompass:bool<td>
+<td>showsPointsOfInterest:bool<td>
+</tr>
+</table>
+
+
+#<h3>4--》MapView(地图)属性文字描述如下:</h3>
+<ul type="circle">
+<li>annotations:地图上的标注点，可以带有标题及副标题。</li>
+<li>legalLabelInsets:地图上标签的合法范围。默认在地图底部左侧</li>
+<li>mapType:要显示的地图类型('standard', 'satellite', 'hybrid')</li>
+<li>maxDelta:可以被显示的最大区域尺寸</li>
+<li>minDelta:可以被显示的最小区域尺寸</li>
+<li>overlays:地图的覆盖层</li>
+<li>onAnnotationPress:当用户点击地图上的标注之后会调用此回调函数一次</li>
+<li>onRegionChange:在用户拖拽地图的时候持续调用此回调函数</li>
+<li>onRegionChangeComplete:当用户停止拖拽地图之后，调用此回调函数一次</li>
+<li>pitchEnabled:地图平面倾斜/俯视</li>
+<li>region:地图显示的区域</li>
+<li>rotateEnabled:朝向角度设置</li>
+<li>scrollEnabled:如果此属性设为false，用户不能改变地图所显示的区域</li>
+<li>showsUserLocation:提示用户是否允许定位</li>
+<li>style:样式</li>
+<li>zoomEnabled:如果此属性为false，用户则不能旋转/缩放地图</li>
+<li>showsCompass:如果此属性为false，地图上不会显示指南针</li>
+<li>showsPointsOfInterest:如果此属性为false，感兴趣的点不会在地图上显示</li>
+</ul>
+#按钮效果图
+![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/mapView.gif)
+* * *

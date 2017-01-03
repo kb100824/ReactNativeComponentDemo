@@ -306,7 +306,7 @@ var styles = StyleSheet.create({
 exports.displayName = (undefined: ?string);
 exports.title = '<MapView>';
 exports.description = 'Base component to display maps';
-exports.examples = [
+exports.MapViewModel = [
   {
     title: 'Map',
     render() {

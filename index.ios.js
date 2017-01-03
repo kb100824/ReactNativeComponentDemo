@@ -34,7 +34,7 @@ export default class ReactNativeComponentDemo extends Component {
 
        <ScrollView>
        {
-         MapViewComponent.examples.map((mapArray)=>{
+         MapViewComponent.MapViewModel.map((mapArray)=>{
 
            return <View><Text style={{marginTop:20}}>{mapArray.title}</Text><View>{mapArray.render()}</View></View>
          })
