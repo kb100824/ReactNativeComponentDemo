@@ -72,7 +72,7 @@
  <li>onPress:用户点击此按钮时所调用的处理函数</li>
  <li>title:按钮内显示的文本</li>
 </ul>
-#按钮效果图
+#效果图
 ![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/button.gif)
 * * *
 
@@ -115,7 +115,7 @@
  <li>onDateChange:当用户修改日期或时间时调用此回调函数</li>
  <li>timeZoneOffsetInMinutes:时区差，单位是分钟</li>
 </ul>
-#按钮效果图
+#效果图
 ![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/datepicker.gif)
 * * *
 
@@ -189,6 +189,36 @@
 <li>showsCompass:如果此属性为false，地图上不会显示指南针</li>
 <li>showsPointsOfInterest:如果此属性为false，感兴趣的点不会在地图上显示</li>
 </ul>
-#按钮效果图
+#效果图
 ![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/mapView.gif)
+* * *
+
+#ReactNative---->ListView常用属性了解如表格所示
+<table border="1" align="center"  cellspacing="0">
+<caption  align="left">ListView</caption>
+<tr>
+<td>dataSource<td>
+<td>initialListSize<td>
+<td>onChangeVisibleRows<td>
+<td>renderRow</td>
+</tr>
+<tr>
+<td>dataSource:Array<td>
+<td>initialListSize:number<td>
+<td>onChangeVisibleRows:function<td>
+<td>renderRow:function</td>
+</tr>
+</table>
+
+
+#<h3>5--》ListView常用属性文字描述如下:</h3>
+<ul type="circle">
+<li>dataSource:列表依赖的数据源</li>
+<li>initialListSize:指定在组件刚挂载的时候渲染多少行数据</li>
+<li>onChangeVisibleRows:当可见的行的集合变化的时候调用此回调函数</li>
+<li>renderRow:每行用来渲染组件</li>
+</ul>
+#效果图
+![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/listView.gif)
+![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/listView_space.gif)
 * * *
