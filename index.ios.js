@@ -19,6 +19,11 @@ import {
 // import DatePicker  from './ComponentDemoJS/datepicker';
 // import MapViewComponent from './ComponentDemoJS/mapView';
 //import KeyboardAvoidingViewComponent from './ComponentDemoJS/keyboardAvoidingView';
+
+
+//import ListViewExample from './ComponentDemoJS/ListViewExample';
+var ListViewExample = require('./ComponentDemoJS/ListViewExample');
+
 export default class ReactNativeComponentDemo extends Component {
   constructor(props){
     super(props);
@@ -31,9 +36,9 @@ export default class ReactNativeComponentDemo extends Component {
   render() {
     return (
 
-
-  
-
+      <View>
+        <ListViewExample/>
+      </View>
       //  <ScrollView>
       //  {
       //    MapViewComponent.MapViewModel.map((mapArray)=>{

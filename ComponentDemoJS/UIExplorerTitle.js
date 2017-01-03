@@ -1,3 +1,4 @@
+
 'use strict';
 import React,{Component} from 'react';
 import {
@@ -6,23 +7,17 @@ import {
   View,
 } from 'react-native';
 
-export default class UIExplorerTitle extends React.Component {
-
+class UIExplorerTitle extends React.Component {
   render() {
-     return (
-       <View style={styles.container}>
-         <Text style={styles.text}>
-           {this.props.title}
-         </Text>
-       </View>
-     );
-   }
-
-
-
+    return (
+      <View style={styles.container}>
+        <Text style={styles.text}>
+          {this.props.title}
+        </Text>
+      </View>
+    );
+  }
 }
-
-
 
 var styles = StyleSheet.create({
   container: {

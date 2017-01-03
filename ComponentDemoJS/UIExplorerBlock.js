@@ -1,3 +1,4 @@
+
 'use strict';
 import React,{Component} from 'react';
 import {
@@ -6,45 +7,45 @@ import {
   View,
 } from 'react-native';
 
-export default class UIExplorerBlock extends React.Component{
+class UIExplorerBlock extends React.Component {
+  props: {
+    title?: string,
+    description?: string,
+  };
 
-     props:{
-       title?:string,
-       description?:string,
-     };
-     static propTypes={
-       title:React.propTypes.string,
-       description:React.propTypes.string,
-     };
-     state = {
-       description:(null:?string)
-     };
-     render(){
-       var description;
-       if (this.props.description) {
-         description = <Text style={styles.descriptionText}>{this.props.description}<Text>;
-       }
+  static propTypes = {
+    title: React.PropTypes.string,
+    description: React.PropTypes.string,
+  };
 
-        return(
-          <View style={styles.container}>
-          <View style={styles.titleContainer}>
-           <Text style={styles.titleText}>{
-             this.props.title
-           }</Text>
-          </View>
-          <View style={styles.children}>
+  state = {description: (null: ?string)};
+
+  render() {
+    var description;
+    if (this.props.description) {
+      description =
+        <Text style={styles.descriptionText}>
+          {this.props.description}
+        </Text>;
+    }
+
+    return (
+      <View style={styles.container}>
+        <View style={styles.titleContainer}>
+          <Text style={styles.titleText}>
+            {this.props.title}
+          </Text>
+          {description}
+        </View>
+        <View style={styles.children}>
           {
-            this.props.children
-          }
-          </View>
-          </View>
-        );
-
-     }
-
-
+            // $FlowFixMe found when converting React.createClass to ES6
+            this.props.children}
+        </View>
+      </View>
+    );
+  }
 }
-
 
 var styles = StyleSheet.create({
   container: {
@@ -86,4 +87,5 @@ var styles = StyleSheet.create({
     margin: 10,
   }
 });
+
 module.exports = UIExplorerBlock;

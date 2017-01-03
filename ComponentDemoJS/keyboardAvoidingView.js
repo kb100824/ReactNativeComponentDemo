@@ -11,8 +11,9 @@ import {
    View,
 } from 'react-native';
 
-import UIExplorerBlock from './ComponentDemoJS/UIExplorerBlock';
-import UIExplorerPage from './ComponentDemoJS/UIExplorerPage';
+
+var UIExplorerBlock = require('./UIExplorerBlock');
+var UIExplorerPage = require('./UIExplorerPage');
 
 export default class KeyboardAvoidingViewExample extends React.Component{
   static title = '<KeyboardAvoidingView>';
