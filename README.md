@@ -36,6 +36,7 @@
  <li>通过自身拥有的style样式中的transform属性:{transform: [{scale: 1.5}]}</li>
 </ul>
 #指示器效果图
+
 ![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/indicator.gif)
 * * *
 
