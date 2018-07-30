@@ -74,6 +74,7 @@
  <li>title:按钮内显示的文本</li>
 </ul>
 #效果图
+
 ![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/button.gif)
 * * *
 
@@ -117,6 +118,7 @@
  <li>timeZoneOffsetInMinutes:时区差，单位是分钟</li>
 </ul>
 #效果图
+
 ![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/datepicker.gif)
 * * *
 
@@ -191,6 +193,7 @@
 <li>showsPointsOfInterest:如果此属性为false，感兴趣的点不会在地图上显示</li>
 </ul>
 #效果图
+
 ![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/mapView.gif)
 * * *
 
@@ -220,6 +223,7 @@
 <li>renderRow:每行用来渲染组件</li>
 </ul>
 #效果图
+
 ![Image](https://github.com/KBvsMJ/ReactNativeComponentDemo/blob/master/demogif/listview.gif)
 
 
